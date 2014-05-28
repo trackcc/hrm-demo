@@ -474,8 +474,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.0</version>
 					<configuration>
-						<source>1.6</source>
-						<target>1.6</target>
+						<!--source>1.6</source>
+						<target>1.6</target-->
 						<encoding>${charset}</encoding>
 						<fork>true</fork>
 						<meminitial>128m</meminitial>
@@ -637,7 +637,7 @@
                 <version>3.0.1</version>
                 <configuration>
                     <sourceEncoding>utf-8</sourceEncoding>
-                    <targetJdk>1.6</targetJdk>
+                    <!--targetJdk>1.6</targetJdk-->
                     <rulesets>
                         <ruleset>/rulesets/basic.xml</ruleset>
                         <ruleset>/rulesets/imports.xml</ruleset>
